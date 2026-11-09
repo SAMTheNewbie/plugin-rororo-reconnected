@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "rmm.account-reconnect",
+  "name": "RMM Account Reconnect",
+  "version": "0.1.0",
+  "contractVersion": "1.0",
+  "publisher": "Roblox Multi Manager",
+  "description": "Reconnects an exited account to its last known PlaceId when explicitly enabled in Roblox Multi Manager.",
+  "capabilities": [
+    "host.events.account-launched",
+    "host.events.account-exited",
+    "host.commands.launch-target"
+  ]
+}
